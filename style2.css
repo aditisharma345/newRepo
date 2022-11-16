@@ -1,0 +1,297 @@
+html{
+    font-family: 'heebo';
+    font-size: 18px;
+    font-style: normal;
+}
+body{
+    margin: 0;
+}
+header{
+    top:0;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    bottom:0 ;
+}
+ul{
+    list-style-type: none;/* 
+    background-color: rgb(255, 255, 255); */
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+li{
+    float: right;
+}
+li a{
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-align: right;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: antiquewhite;
+}
+
+
+.rectangle{
+    padding: 10px;
+    margin: 0;
+}
+/* <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br>Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt <BR>nostrud amet.</p>
+         */
+.rectangle p{
+    padding: 10px;
+}
+
+.rectangle1{
+    background-color:rgb(195, 227, 237);
+    margin: 0;
+    padding:20px ;
+}
+.lin{
+    display:flex;
+    justify-content: space-between;
+  }
+  .lin2{
+    display:flex;
+    justify-content: space-evenly; 
+    
+  }
+  .lin3{
+    display:flex;
+}
+  .lin4{
+    display:flex;
+    justify-content: space-around;
+
+    
+  }
+
+  /* RECENT POSTS */
+  .lin h3{
+    padding: 10px;
+    margin:0;
+}
+
+/* view all */
+.lin a{
+    width:100px;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(0, 94, 255);
+    text-decoration: none;
+
+}
+  .square1 {
+    background-color:white;
+    width: 418px;
+    padding:20px;
+    margin: 0;
+  }
+  
+  /* 6 Oct 2020;Design,pattern */
+  .lin h4{
+    margin: 0;
+    padding: 10px;
+}
+.lin h5{
+    margin: 0;
+    padding: 10px;
+}
+  /* <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> */
+  .square1 p{
+    margin: 0;
+    padding: 10px;
+    color:#21243D;
+  }
+  .square2 {
+    background-color:white;
+    width: 418px;
+    padding:20px;
+    margin: 0;
+  }
+  /* Creating pixel perfect icons in Figma */
+ 
+  .square2 p{
+    margin: 0;
+    padding: 10px;
+    color:#21243D;
+  }
+  
+.card{
+    float:right;
+    padding:20px;
+    
+}
+.box1 img{
+width: 325px;
+height: 225px;
+border-radius: 50px;
+padding: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.box2 img{
+    width:325px ;
+    height: 325px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box3 img{
+    width: 325px;
+    height: 225px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icons {
+    display:inline-block;
+    padding: 10px ;
+     
+}
+
+/*Designing Dashboards  */
+
+.lin p{
+    
+    padding: 10px;
+    font-size: 16px;
+
+}
+.Featured p {
+    color: #575a75;
+    padding: 10px;
+    
+}
+.rect {
+    margin: 0;
+
+  }
+  
+
+.box{
+    margin: 0;
+    width:570px ;
+    height: 350px;
+    border: 1px splid black;                                                                                                   
+    border-radius: 15px;
+
+}
+
+
+footer{
+    text-align:center ;
+
+    bottom: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.content{
+    padding: 10px;
+}
+.container{
+    display: flex;
+    margin-right: 10px;
+}
+.button{
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #FF6464;
+    color:white ;
+    padding: 10px;
+    display: inline-block;
+}
+.button2{
+    border: 10px;
+    border-radius: 20px;
+    
+    margin-left: 20px;
+    background-color: #0000008c;
+    color:white ;
+    display:inline-block;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+}
+ .wd{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .imag8{
+    width: 325px;
+    height: 225px;
+  }
+  .imag9{
+    width: 525px;
+    height: 425px;
+    padding: 10px;
+  }
+  .imag10{
+    width: 525px;
+    height: 425px;
+  }
+  .ig img{
+    width: 525px;
+    height: 425px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .lin4 {
+      flex-direction: column-reverse;
+    }
+    .lin2, .wd{
+        flex-direction: column; 
+    }
+    .square1, .square2 {
+        width:auto;
+        margin-bottom: 10px;
+    }
+    .ig img{
+        width: 325px;
+        height: 225px;
+      }
+  }
+  @media screen and (max-width: 800px) {
+    .lin4 {
+      flex-direction: column-reverse;
+    }
+    .lin2 {
+        flex-direction: column; 
+    }
+    .wd{
+        flex-direction: column; 
+    }
+    .square1, .square2 {
+        width:auto;
+        margin-bottom: 10px;
+    }
+    .ig img{
+        width: 325px;
+        height: 225px;
+      }
+  }
+  @media screen and (max-width: 1000px) {
+    .lin4 {
+      flex-direction: column-reverse;
+    }
+    .lin2 {
+        flex-direction: column; 
+    }
+    .wd{
+        flex-direction: column; 
+    }
+  }
+  
+
+  
